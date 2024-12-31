@@ -10,7 +10,7 @@ function ToggleSwitch() {
   };
 
   return (
-    <div className="flex justify-end items-center space-x-4 p-4">
+    <div className="flex justify-end items-center space-x-4">
       {/* Dark Mode Toggle Switch */}
       <label
         htmlFor="toggle-dark-mode"
@@ -33,9 +33,10 @@ function ToggleSwitch() {
             }`}
           ></div>
         </div>
-        <span className="ml-2 font-bold text-gray-400">
+        <span className="ml-2 font-bold text-gray-500">
           {isDarkMode ? "DARK MODE" : "LIGHT MODE"}
         </span>
+        <div className="w-0.5 h-4 bg-gray-500 ml-4"></div>
       </label>
     </div>
   );

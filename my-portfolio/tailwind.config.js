@@ -6,6 +6,8 @@ export default {
     extend: {
       colors: {
         mor: "rgba(55, 48, 163, 1)", // Özel renginizi burada tanımlayın
+        acikmor: "#ede9fe",
+        crengi: "#8b5cf6",
       },
     },
   },
