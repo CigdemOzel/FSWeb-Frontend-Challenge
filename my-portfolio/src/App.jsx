@@ -2,6 +2,7 @@ import { Switch, Route } from "react-router-dom/cjs/react-router-dom.min";
 import ToggleSwitch from "./components/ToggleSwitch";
 import LanguageSwitcher from "./components/LanguageSwitcher";
 import Layout from "./components/Layout";
+import Hero from "./components/Hero";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <LanguageSwitcher />
       </div>
       <Layout />
+      <Hero />
       <Switch>
         <Route exact path="/">
           {/* Ana sayfa için bileşen buraya eklenecek */}
