@@ -5,9 +5,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        mor: "rgba(55, 48, 163, 1)", // Özel renginizi burada tanımlayın
+        mor: "#4731D3", // Özel renginizi burada tanımlayın
         acikmor: "#ede9fe",
         crengi: "#8b5cf6",
+        griyazi: "#6B7280",
+      },
+      fontFamily: {
+        yazi: ["Inter", "sans-serif"], // Inter fontunu buraya ekleyin
       },
     },
   },

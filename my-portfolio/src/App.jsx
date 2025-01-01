@@ -3,6 +3,8 @@ import ToggleSwitch from "./components/ToggleSwitch";
 import LanguageSwitcher from "./components/LanguageSwitcher";
 import Layout from "./components/Layout";
 import Hero from "./components/Hero";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       </div>
       <Layout />
       <Hero />
+      <Skills />
       <Switch>
         <Route exact path="/">
           {/* Ana sayfa için bileşen buraya eklenecek */}

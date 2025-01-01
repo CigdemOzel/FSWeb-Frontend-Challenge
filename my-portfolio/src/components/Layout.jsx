@@ -11,14 +11,14 @@ const Layout = () => {
 
         {/* Sağdaki butonlar */}
         <div className="space-x-6 mr-36">
-          <button className=" font-medium text-lg text-gray-500 bg-transparent border border-transparent hover:border-mor hover:text-mor px-8 py-2 rounded focus:outline-none focus:border-mor focus:text-mor ">
+          <button className=" font-medium text-lg text-gray-500 bg-transparent border border-transparent hover:border-mor hover:text-mor px-7 py-2 rounded-md focus:outline-none focus:border-mor focus:text-mor ">
             Skills
           </button>
-          <button className="font-medium text-lg text-gray-500 bg-transparent border border-transparent hover:border-mor hover:text-mor px-8 py-2 rounded focus:outline-none focus:border-mor focus:text-mor ">
+          <button className="font-medium text-lg text-gray-500 bg-transparent border border-transparent hover:border-mor hover:text-mor px-7 py-2 rounded-md focus:outline-none focus:border-mor focus:text-mor ">
             Projects
           </button>
-          <button className="font-medium text-lg text-gray-500 bg-transparent border border-transparent hover:border-mor hover:text-mor px-8 py-2 rounded focus:outline-none focus:border-mor focus:text-mor ">
-            Hire Me
+          <button className="font-medium text-lg text-gray-500 bg-transparent border border-transparent hover:border-mor hover:text-mor px-7 py-2 rounded-md focus:outline-none focus:border-mor focus:text-mor ">
+            Hire me
           </button>
         </div>
       </div>
