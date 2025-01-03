@@ -1,4 +1,4 @@
-import { Switch, Route } from "react-router-dom/cjs/react-router-dom.min";
+import { Switch, Route } from "react-router-dom";
 import ToggleSwitch from "./components/ToggleSwitch";
 import LanguageSwitcher from "./components/LanguageSwitcher";
 import Layout from "./components/Layout";
