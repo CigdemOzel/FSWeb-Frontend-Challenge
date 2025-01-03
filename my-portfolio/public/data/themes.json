@@ -1,0 +1,113 @@
+{
+  "lightMode": {
+    "background": "bg-mor",
+    "dot": "bg-yellow-300",
+    "text": "text-gray-500",
+    "label": "LIGHT MODE"
+  },
+  "darkMode": {
+    "background": "bg-gray-800",
+    "dot": "bg-yellow-500",
+    "text": "text-white",
+    "label": "DARK MODE"
+  },
+  "skills": [
+    {
+      "title": "React.Js",
+      "description": "React (also known as ReactJS or React.js) is an open-source JavaScript library used for building user interfaces."
+    },
+    {
+      "title": "Redux",
+      "description": "Redux is an open-source JavaScript library used to manage and centralize application state."
+    },
+    {
+      "title": "JavaScript",
+      "description": "JavaScript (commonly abbreviated as JS) is a programming language that, along with HTML and CSS, is one of the core technologies of the World Wide Web."
+    },
+    {
+      "title": "Tailwind CSS",
+      "description": "Tailwind CSS is an open-source CSS framework. Unlike other frameworks like Bootstrap, it does not provide a set of predefined classes for elements."
+    },
+    {
+      "title": "HTML",
+      "description": "Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser."
+    },
+    {
+      "title": "CSS",
+      "description": "Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a document."
+    }
+  ],
+  "projects": [
+    {
+      "imageSrc": "/images/project1.png",
+      "title": "WitFlix",
+      "description": "Witflix is a project where a Netflix-like website was designed using HTML and CSS.",
+      "techTags": ["html", "css", "responsive design"],
+      "githubLink": "https://github.com/CigdemOzel/witflix",
+      "siteLink": "https://witflix-dun.vercel.app/"
+    },
+    {
+      "imageSrc": "/images/project2.png",
+      "title": "Pizza Order",
+      "description": "This website allows users to customize their pizza orders with options like size, crust type, toppings, and special notes. The project uses React with hooks for state management, and Axios to fetch and send data to the database. The design is responsive, providing a seamless user experience across different devices.",
+      "techTags": ["html", "javascript", "css", "react", "hooks", "axios"],
+      "githubLink": "https://github.com/CigdemOzel/challenge-pizza",
+      "siteLink": "https://challenge-pizza-zeta.vercel.app/"
+    }
+  ],
+  "profile": {
+    "dob": "07.01.1999",
+    "city": "Çanakkale",
+    "education": "Trakya University Elementary Mathematics Education Bachelor's Degree, 2022",
+    "preferredRole": "Fullstack Developer",
+    "aboutMe": "I am a Fullstack Developer with an interest in software development. I have experience in both front-end and back-end technologies. I am always open to learning new things and collaborating in projects."
+  },
+  "layout": {
+    "initialLetter": "Ç",
+    "buttons": [
+      {
+        "label": "Skills"
+      },
+      {
+        "label": "Projects"
+      },
+      {
+        "label": "Hire me"
+      }
+    ]
+  },
+  "languages": {
+    "en": {
+      "switchTo": "SWITCH TO",
+      "language": "ENGLISH"
+    },
+    "tr": {
+      "switchTo": "'YE GEÇ",
+      "language": "TÜRKÇE"
+    }
+  },
+  "name": "Çiğdem Özel",
+  "slogan": "Let's work together on your next product.",
+  "bio": "Hi, I'm Çiğdem. I'm a frontend developer with a keen eye for detail. I'm passionate about creating user-friendly, responsive, and aesthetically pleasing web designs. I focus on quality and functionality at every step of the coding process, aiming to craft great user experiences.",
+  "buttons": {
+    "hireMe": "Hire me"
+  },
+  "socialLinks": [
+    {
+      "text": "Personal Blog",
+      "className": "text-personal"
+    },
+    {
+      "url": "https://github.com/CigdemOzel",
+      "text": "Github",
+      "className": "text-github"
+    },
+    {
+      "url": "https://tr.linkedin.com/in/ciggdemozel?trk=people-guest_people_search-card",
+      "text": "Linkedin",
+      "className": "text-linkedin"
+    }
+  ],
+  "profileImage": "/images/profile-photo.jpeg",
+  "email": "cigdemozel17@gmail.com"
+}
